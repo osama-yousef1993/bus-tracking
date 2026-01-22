@@ -1,0 +1,7 @@
+phone_pattern = r"^\+\d{1,4}[\d\s\-\(\)]{6,14}$"
+phone_error_message = "Invalid phone number. Please provide a valid phone number."
+password_pattern = r"^[A-Za-z\d@$!^%*?&]{8,}$"
+password_error_message = "Password must contain: 8+ chars, 1 uppercase, 1 lowercase, 1 digit, 1 special character (@$!%*?&)"
+name_pattern = r"^[a-zA-Z _]+$"
+email_pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+email_error_message = "Invalid email format. Please provide a valid email address."
